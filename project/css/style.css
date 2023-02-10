@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 1440px;
+  height: 100%;
+  background-color: hsl(217deg, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .container {
+  width: 350px;
+  height: 596px;
+  padding: 24px 24px 32px 24px;
+  background: #15263F;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+}
+.box .container .container__image {
+  width: 302px;
+  height: 302px;
+  background-image: url(../images/image-equilibrium.jpg);
+  background-size: cover;
+  background-color: #2a579a;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.box .container .container__image-bk-color {
+  background-color: rgba(0, 255, 247, 0.3843137255);
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.box .container__image:hover .container__image-bk-color {
+  display: flex;
+}
+.box .container .container__text {
+  width: 288px;
+  height: 129px;
+  margin: auto;
+}
+.box .container .container__text h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.box .container .container__text h1 a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.box .container .container__text h1 a:hover {
+  color: #00FFF8;
+}
+.box .container .container__text p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #8BACD9;
+}
+.box .container .container__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid #2E405A;
+  padding-bottom: 24px;
+}
+.box .container .container__info-price {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  color: #00FFF8;
+  display: flex;
+  align-items: center;
+}
+.box .container .container__info-price img {
+  margin-right: 6.48px;
+}
+.box .container .container__info-term {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  color: #8BACD9;
+  display: flex;
+  align-items: center;
+}
+.box .container .container__info-term img {
+  margin-right: 9.03px;
+}
+.box .container .container__author {
+  display: flex;
+  align-items: center;
+}
+.box .container .container__author-foto {
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  margin-right: 16px;
+  margin-top: 16px;
+  background-image: url(../images/image-avatar.png);
+  background-size: cover;
+}
+.box .container .container__author-name {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8BACD9;
+  margin-top: 16px;
+}
+.box .container .container__author-name a {
+  text-decoration: none;
+  color: white;
+}
+.box .container .container__author-name a:hover {
+  color: #00FFF8;
+}/*# sourceMappingURL=style.css.map */
