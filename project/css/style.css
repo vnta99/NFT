@@ -137,4 +137,23 @@ body {
 }
 .box .container .container__author-name a:hover {
   color: #00FFF8;
+}
+
+@media (max-width: 375px) {
+  .box {
+    width: 375px;
+  }
+  .box .container {
+    width: 327px;
+    height: 543px;
+  }
+  .box .container .container__image {
+    width: 278px;
+    height: 278px;
+  }
+  .box .container .container__text {
+    width: 278px;
+    height: 100px;
+    margin: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

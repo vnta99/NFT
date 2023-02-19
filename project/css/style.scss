@@ -168,3 +168,28 @@ body {
 
 
 }
+@media (max-width:375px){
+    .box {
+        width: 375px;
+
+.container {
+    width: 327px;
+    height: 543px;
+    .container__image {
+        width: 278px;
+        height: 278px;
+
+    }
+
+
+
+    .container__text {
+        width: 278px;
+        height: 100px;
+        margin: auto;
+
+
+    }
+}
+    }
+}
